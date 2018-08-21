@@ -3783,12 +3783,6 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		/*@media screen and (max-width: 1280px) {
-			#logo {
-				display: none;
-			}
-		}*/
-
 		@media screen and (max-width: 1280px) {
 
 			#sidebar {
@@ -3816,12 +3810,7 @@ input, select, textarea {
 					line-height: inherit;
 				}
 
-				/*#sidebar > .logo {
-					display: none;
-					max-height:0; 
-					overflow:hidden;
-				}*/
-
+			
 				#sidebar nav {
 					height: inherit;
 					line-height: inherit;
@@ -3881,7 +3870,8 @@ input, select, textarea {
 		background-image: url("images/dog.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		/*background-size: 100% 100%;*/
+		background-size: cover;
 	}
 
 		#intro p {
